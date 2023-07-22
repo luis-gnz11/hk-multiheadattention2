@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hk-multiheadattention2"
+version = "0.1.0"
+description = "A variation of the MultiHeadAttention class by Deepmind that allows for other attention functions (softmax and FAVOR+)"
+authors = ["luis <luis@gradement.com>"]
+readme = "README.md"
+packages = [{include = "hk_multiheadattention2"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dm-haiku = "^0.0.9"
+jax = "^0.4.13"
+jaxlib = "^0.4.13"
+typing-extensions = "^4.7.1"
+gin-config = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
