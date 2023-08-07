@@ -6,4 +6,9 @@ The package include implementions for the following attention functions:
   
 # local usage
 - clone locally
-- poetry add /path/to/local/clone/hk-multiheadattention2/
+- using poetry:
+  - poetry add /path/to/local/clone/hk-multiheadattention2/
+- or using pip:
+  - cd /path/to/local/clone/hk-multiheadattention2/
+  - pip install -e .
+  - 
